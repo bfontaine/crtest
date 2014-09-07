@@ -67,5 +67,5 @@ t.assert("didn't work as expected") do
 end
 ```
 
-It takes a text to print if the test fail and a block. The block must return a
-`truthy` value (i.e. not `false` or `nil`) to be considered as a success.
+It takes a text to print if the test fails, and a block. The block must return
+a `truthy` value (i.e. not `false` or `nil`) to be considered as a success.
