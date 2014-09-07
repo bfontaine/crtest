@@ -54,6 +54,8 @@ class TestsRunner
   def results
     bad = @tests - @good
     "Run #{@tests} tests (#{@asserts} assertions), #{@good} good, #{bad} bad."
+
+    exit 1 if bad > 0
   end
 end
 
