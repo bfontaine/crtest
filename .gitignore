@@ -1,0 +1,7 @@
+*~
+*.tgz
+.*.sw*
+.DS_Store
+/TODO
+/src/*
+!/src/*.cr
